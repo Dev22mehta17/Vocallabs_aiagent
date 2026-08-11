@@ -104,5 +104,3 @@ https://vocallabs-aiagent.vercel.app/
 6. Click **Approve & Resume Execution** — execution resumes and completes remaining steps!
 7. Switch session context to **Org B (Beta Enterprise)** and open **Cross-Org Security Sandbox** tab.
 8. Click **Attempt Unauthorized Trigger** and **Attempt Unauthorized Approval** — verify 100% security block success response.
-
-9. 
