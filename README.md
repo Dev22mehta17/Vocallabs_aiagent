@@ -94,7 +94,9 @@ npm run dev
 
 ## Final Task Verification Flow
 
-1. Open `http://localhost:3000`.
+1. Open  
+Deployed Link -
+https://vocallabs-aiagent.vercel.app/
 2. Select **Org A (Acme AI) — Alice (OWNER)**.
 3. Observe workflow containing `llm_call`, `http_request`, `conditional_branch`, `approval_gate`, `notify`, `db_write`.
 4. Click **Run Workflow** (or send HTTP POST to `http://localhost:4000/api/webhooks/trigger/wf-acme-0001-0000-0000-000000000001`).
@@ -102,3 +104,5 @@ npm run dev
 6. Click **Approve & Resume Execution** — execution resumes and completes remaining steps!
 7. Switch session context to **Org B (Beta Enterprise)** and open **Cross-Org Security Sandbox** tab.
 8. Click **Attempt Unauthorized Trigger** and **Attempt Unauthorized Approval** — verify 100% security block success response.
+
+9. 
